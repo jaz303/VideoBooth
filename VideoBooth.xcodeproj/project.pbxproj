@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96E5EFD614AB6D9600A43123 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5EFD514AB6D9600A43123 /* Cocoa.framework */; };
+		96E5EFE014AB6D9600A43123 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96E5EFDE14AB6D9600A43123 /* InfoPlist.strings */; };
+		96E5EFE214AB6D9600A43123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFE114AB6D9600A43123 /* main.m */; };
+		96E5EFE614AB6D9600A43123 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 96E5EFE414AB6D9600A43123 /* Credits.rtf */; };
+		96E5EFE914AB6D9600A43123 /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFE814AB6D9600A43123 /* VBAppDelegate.m */; };
+		96E5EFEC14AB6D9600A43123 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E5EFEA14AB6D9600A43123 /* MainMenu.xib */; };
+		96E5EFF314AB6E0A00A43123 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5EFF214AB6E0A00A43123 /* QTKit.framework */; };
+		96E5F00214AB7C6400A43123 /* AMSerialPort_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFF714AB7C6400A43123 /* AMSerialPort_Deprecated.m */; };
+		96E5F00314AB7C6400A43123 /* AMSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFF914AB7C6400A43123 /* AMSerialPort.m */; };
+		96E5F00414AB7C6400A43123 /* AMSerialPortAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFFB14AB7C6400A43123 /* AMSerialPortAdditions.m */; };
+		96E5F00514AB7C6400A43123 /* AMSerialPortList_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFFD14AB7C6400A43123 /* AMSerialPortList_Deprecated.m */; };
+		96E5F00614AB7C6400A43123 /* AMSerialPortList.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5EFFF14AB7C6400A43123 /* AMSerialPortList.m */; };
+		96E5F00714AB7C6400A43123 /* AMStandardEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5F00114AB7C6400A43123 /* AMStandardEnumerator.m */; };
+		96E5F00A14AB7D7600A43123 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5F00914AB7D7600A43123 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96E5EFD114AB6D9600A43123 /* VideoBooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E5EFD514AB6D9600A43123 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		96E5EFD814AB6D9600A43123 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		96E5EFD914AB6D9600A43123 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		96E5EFDA14AB6D9600A43123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96E5EFDD14AB6D9600A43123 /* VideoBooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoBooth-Info.plist"; sourceTree = "<group>"; };
+		96E5EFDF14AB6D9600A43123 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96E5EFE114AB6D9600A43123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96E5EFE314AB6D9600A43123 /* VideoBooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoBooth-Prefix.pch"; sourceTree = "<group>"; };
+		96E5EFE514AB6D9600A43123 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		96E5EFE714AB6D9600A43123 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
+		96E5EFE814AB6D9600A43123 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
+		96E5EFEB14AB6D9600A43123 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96E5EFF214AB6E0A00A43123 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		96E5EFF414AB7C6400A43123 /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSDKCompatibility.h; path = Vendor/AMSDKCompatibility.h; sourceTree = "<group>"; };
+		96E5EFF514AB7C6400A43123 /* AMSerialErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSerialErrors.h; path = Vendor/AMSerialErrors.h; sourceTree = "<group>"; };
+		96E5EFF614AB7C6400A43123 /* AMSerialPort_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSerialPort_Deprecated.h; path = Vendor/AMSerialPort_Deprecated.h; sourceTree = "<group>"; };
+		96E5EFF714AB7C6400A43123 /* AMSerialPort_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSerialPort_Deprecated.m; path = Vendor/AMSerialPort_Deprecated.m; sourceTree = "<group>"; };
+		96E5EFF814AB7C6400A43123 /* AMSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSerialPort.h; path = Vendor/AMSerialPort.h; sourceTree = "<group>"; };
+		96E5EFF914AB7C6400A43123 /* AMSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSerialPort.m; path = Vendor/AMSerialPort.m; sourceTree = "<group>"; };
+		96E5EFFA14AB7C6400A43123 /* AMSerialPortAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSerialPortAdditions.h; path = Vendor/AMSerialPortAdditions.h; sourceTree = "<group>"; };
+		96E5EFFB14AB7C6400A43123 /* AMSerialPortAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSerialPortAdditions.m; path = Vendor/AMSerialPortAdditions.m; sourceTree = "<group>"; };
+		96E5EFFC14AB7C6400A43123 /* AMSerialPortList_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSerialPortList_Deprecated.h; path = Vendor/AMSerialPortList_Deprecated.h; sourceTree = "<group>"; };
+		96E5EFFD14AB7C6400A43123 /* AMSerialPortList_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSerialPortList_Deprecated.m; path = Vendor/AMSerialPortList_Deprecated.m; sourceTree = "<group>"; };
+		96E5EFFE14AB7C6400A43123 /* AMSerialPortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSerialPortList.h; path = Vendor/AMSerialPortList.h; sourceTree = "<group>"; };
+		96E5EFFF14AB7C6400A43123 /* AMSerialPortList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSerialPortList.m; path = Vendor/AMSerialPortList.m; sourceTree = "<group>"; };
+		96E5F00014AB7C6400A43123 /* AMStandardEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMStandardEnumerator.h; path = Vendor/AMStandardEnumerator.h; sourceTree = "<group>"; };
+		96E5F00114AB7C6400A43123 /* AMStandardEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMStandardEnumerator.m; path = Vendor/AMStandardEnumerator.m; sourceTree = "<group>"; };
+		96E5F00914AB7D7600A43123 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E5EFCE14AB6D9600A43123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E5F00A14AB7D7600A43123 /* IOKit.framework in Frameworks */,
+				96E5EFF314AB6E0A00A43123 /* QTKit.framework in Frameworks */,
+				96E5EFD614AB6D9600A43123 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96E5EFC614AB6D9600A43123 = {
+			isa = PBXGroup;
+			children = (
+				96E5F00914AB7D7600A43123 /* IOKit.framework */,
+				96E5F00814AB7C7800A43123 /* Vendor */,
+				96E5EFF214AB6E0A00A43123 /* QTKit.framework */,
+				96E5EFDB14AB6D9600A43123 /* VideoBooth */,
+				96E5EFD414AB6D9600A43123 /* Frameworks */,
+				96E5EFD214AB6D9600A43123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E5EFD214AB6D9600A43123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E5EFD114AB6D9600A43123 /* VideoBooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E5EFD414AB6D9600A43123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E5EFD514AB6D9600A43123 /* Cocoa.framework */,
+				96E5EFD714AB6D9600A43123 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96E5EFD714AB6D9600A43123 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E5EFD814AB6D9600A43123 /* AppKit.framework */,
+				96E5EFD914AB6D9600A43123 /* CoreData.framework */,
+				96E5EFDA14AB6D9600A43123 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		96E5EFDB14AB6D9600A43123 /* VideoBooth */ = {
+			isa = PBXGroup;
+			children = (
+				96E5EFE714AB6D9600A43123 /* VBAppDelegate.h */,
+				96E5EFE814AB6D9600A43123 /* VBAppDelegate.m */,
+				96E5EFEA14AB6D9600A43123 /* MainMenu.xib */,
+				96E5EFDC14AB6D9600A43123 /* Supporting Files */,
+			);
+			path = VideoBooth;
+			sourceTree = "<group>";
+		};
+		96E5EFDC14AB6D9600A43123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96E5EFDD14AB6D9600A43123 /* VideoBooth-Info.plist */,
+				96E5EFDE14AB6D9600A43123 /* InfoPlist.strings */,
+				96E5EFE114AB6D9600A43123 /* main.m */,
+				96E5EFE314AB6D9600A43123 /* VideoBooth-Prefix.pch */,
+				96E5EFE414AB6D9600A43123 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96E5F00814AB7C7800A43123 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				96E5EFF414AB7C6400A43123 /* AMSDKCompatibility.h */,
+				96E5EFF514AB7C6400A43123 /* AMSerialErrors.h */,
+				96E5EFF614AB7C6400A43123 /* AMSerialPort_Deprecated.h */,
+				96E5EFF714AB7C6400A43123 /* AMSerialPort_Deprecated.m */,
+				96E5EFF814AB7C6400A43123 /* AMSerialPort.h */,
+				96E5EFF914AB7C6400A43123 /* AMSerialPort.m */,
+				96E5EFFA14AB7C6400A43123 /* AMSerialPortAdditions.h */,
+				96E5EFFB14AB7C6400A43123 /* AMSerialPortAdditions.m */,
+				96E5EFFC14AB7C6400A43123 /* AMSerialPortList_Deprecated.h */,
+				96E5EFFD14AB7C6400A43123 /* AMSerialPortList_Deprecated.m */,
+				96E5EFFE14AB7C6400A43123 /* AMSerialPortList.h */,
+				96E5EFFF14AB7C6400A43123 /* AMSerialPortList.m */,
+				96E5F00014AB7C6400A43123 /* AMStandardEnumerator.h */,
+				96E5F00114AB7C6400A43123 /* AMStandardEnumerator.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E5EFD014AB6D9600A43123 /* VideoBooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E5EFEF14AB6D9600A43123 /* Build configuration list for PBXNativeTarget "VideoBooth" */;
+			buildPhases = (
+				96E5EFCD14AB6D9600A43123 /* Sources */,
+				96E5EFCE14AB6D9600A43123 /* Frameworks */,
+				96E5EFCF14AB6D9600A43123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoBooth;
+			productName = VideoBooth;
+			productReference = 96E5EFD114AB6D9600A43123 /* VideoBooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E5EFC814AB6D9600A43123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96E5EFCB14AB6D9600A43123 /* Build configuration list for PBXProject "VideoBooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96E5EFC614AB6D9600A43123;
+			productRefGroup = 96E5EFD214AB6D9600A43123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E5EFD014AB6D9600A43123 /* VideoBooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E5EFCF14AB6D9600A43123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E5EFE014AB6D9600A43123 /* InfoPlist.strings in Resources */,
+				96E5EFE614AB6D9600A43123 /* Credits.rtf in Resources */,
+				96E5EFEC14AB6D9600A43123 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E5EFCD14AB6D9600A43123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E5EFE214AB6D9600A43123 /* main.m in Sources */,
+				96E5EFE914AB6D9600A43123 /* VBAppDelegate.m in Sources */,
+				96E5F00214AB7C6400A43123 /* AMSerialPort_Deprecated.m in Sources */,
+				96E5F00314AB7C6400A43123 /* AMSerialPort.m in Sources */,
+				96E5F00414AB7C6400A43123 /* AMSerialPortAdditions.m in Sources */,
+				96E5F00514AB7C6400A43123 /* AMSerialPortList_Deprecated.m in Sources */,
+				96E5F00614AB7C6400A43123 /* AMSerialPortList.m in Sources */,
+				96E5F00714AB7C6400A43123 /* AMStandardEnumerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96E5EFDE14AB6D9600A43123 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E5EFDF14AB6D9600A43123 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96E5EFE414AB6D9600A43123 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E5EFE514AB6D9600A43123 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		96E5EFEA14AB6D9600A43123 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E5EFEB14AB6D9600A43123 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96E5EFED14AB6D9600A43123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		96E5EFEE14AB6D9600A43123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		96E5EFF014AB6D9600A43123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoBooth/VideoBooth-Prefix.pch";
+				INFOPLIST_FILE = "VideoBooth/VideoBooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96E5EFF114AB6D9600A43123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoBooth/VideoBooth-Prefix.pch";
+				INFOPLIST_FILE = "VideoBooth/VideoBooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E5EFCB14AB6D9600A43123 /* Build configuration list for PBXProject "VideoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E5EFED14AB6D9600A43123 /* Debug */,
+				96E5EFEE14AB6D9600A43123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E5EFEF14AB6D9600A43123 /* Build configuration list for PBXNativeTarget "VideoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E5EFF014AB6D9600A43123 /* Debug */,
+				96E5EFF114AB6D9600A43123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E5EFC814AB6D9600A43123 /* Project object */;
+}
