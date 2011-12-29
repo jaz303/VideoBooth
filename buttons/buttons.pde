@@ -1,3 +1,12 @@
+// simple sketch for interfacing with a bunch of illuminated buttons over the serial port
+//
+// buttons can be enabled or disabled. LEDs of enabled buttons will be illuminated,
+// and disabled buttons do not relay press events over the serial connection.
+// buttons are addressed by letter: a, b, c etc.
+// when an enabled button is pressed, its uppercase ASCII representation (e.g. 'A', or 0x41)
+// is transmitted over the serial line. button enabled state can be toggled by sending ASCII
+// to the board - uppercase to enable, lowercase to disable.
+
 typedef struct {
   int led_pin;
   int button_pin;
@@ -28,7 +37,11 @@ void setup()
     pinMode(buttons[i].led_pin, OUTPUT);
     pinMode(buttons[i].button_pin, INPUT);
     digitalWrite(buttons[i].button_pin, HIGH);
-    enableButton(i);
+		if (buttons[i].enabled) {
+			enableButton(i);
+		} else {
+			disableButton(i);
+		}
   }
   
   Serial.begin(9600);
